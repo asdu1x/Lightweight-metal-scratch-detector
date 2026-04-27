@@ -23,12 +23,12 @@ Quick Start
 1. Install dependencies:
    pip install -r requirements.txt
 
-2. Install Detectron2 https://github.com/facebookresearch/detectron2    
+2. Install Detectron2[https://github.com/facebookresearch/detectron2]    
 
 3. Place metal surface images in the "image_path" and weight in the "cfg.MODEL.WEIGHTS".
 
 5. Run inference:
-   python test.py
+   python test0.py
 
 ---
 Data Availability
