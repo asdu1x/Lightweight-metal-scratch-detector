@@ -12,7 +12,7 @@ demonstration of the model described in the paper.
 Environment
 -------
 The code has been tested on:
-  - OS: Windows 10
+  - Windows 10
   - Python 3.7+
   - PyTorch 1.6.0 (CUDA 10.1 or later recommended)
   - A GPU with at least 6 GB memory is recommended for smooth inference. CPU-only inference is also supported but will be slower.
