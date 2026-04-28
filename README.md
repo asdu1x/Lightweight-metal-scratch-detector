@@ -2,6 +2,7 @@ Lightweight Metal Scratch Detector via Cross-Layer Key Adaptive Feature Distilla
 =============================================================================
 This paper has been submitted to [The Visual Computer].
 
+Authors: Bin Xu, Jianhong Huang, Yuyang Du, Tong Zhou, Jiangwen Tang, Hongyu Li, Qishi Hu, Bo Zhang, Kai Liu
 Repository: https://github.com/asdu1x/Lightweight-metal-scratch-detector 
 
 This repository contains code for our lightweight metal scratch detector. It is intended to provide a demonstration of the model described in the paper.
