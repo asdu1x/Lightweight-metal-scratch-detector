@@ -1,4 +1,4 @@
-Lightweight Metal Scratch Detector via Cross-Layer Key Adaptive Feature Distillation
+Lightweight metal scratch detector via cross-Layer adaptive key feature distillation
 =============================================================================
 This paper has been submitted to [The Visual Computer].
 
