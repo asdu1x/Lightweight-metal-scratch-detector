@@ -20,8 +20,7 @@ The code has been tested on:
 -------
 Quick Start
 -------
-1. Install dependencies:
-   pip install -r requirements.txt
+1. Install dependencies: pip install -r requirements.txt
 
 2. Install detectron2 [https://github.com/facebookresearch/detectron2]    
 
@@ -33,6 +32,19 @@ Quick Start
 Data Availability
 ---
 The data that support the findings of this study are available from the corresponding author upon reasonable request.
+
+---
+Author Contributions
+---
+Bin Xu: Conceptualization, Methodology, Formal analysis, Visualization, Data curation, Review & editing, Writing- original draft.
+Jianhong Huang: Methodology, Software, Data curation, Writing – original draft.
+Yuyang Du: Methodology, Software, Data curation, Writing – original draft.
+Tong Zhou: Data curation, Writing- Original draft.
+Jiangwen Tang: Project administration, Writing- Original draft.
+Hongyu Li: Project administration, Data curation.
+Qishi Hu: Writing – original draft.
+Bo Zhang: Supervision, Review & editing, Writing- original draft.
+Kai Liu: Review & editing.
 
 ---
 Contact
