@@ -42,9 +42,9 @@ Jianhong Huang: Methodology, Software, Data curation, Writing – original draft
 
 Yuyang Du: Methodology, Software, Data curation, Writing – original draft.
 
-Tong Zhou: Data curation, Writing- Original draft.
+Tong Zhou: Data curation, Writing- original draft.
 
-Jiangwen Tang: Project administration, Writing- Original draft.
+Jiangwen Tang: Project administration, Writing- original draft.
 
 Hongyu Li: Project administration, Data curation.
 
