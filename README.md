@@ -27,7 +27,7 @@ Quick Start
 
 3. Place metal surface images in the "image_path" and weight in the "cfg.MODEL.WEIGHTS".
 
-5. Run test0.py
+5. Run demo.py
 
 ---
 Data Availability
