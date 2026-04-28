@@ -4,9 +4,7 @@ This paper has been submitted to [The Visual Computer].
 
 Repository: https://github.com/asdu1x/Lightweight-metal-scratch-detector 
 
-This repository contains inference code for our lightweight metal scratch
-detector, built on detectron2. It is intended to provide a ready-to-use
-demonstration of the model described in the paper.
+This repository contains code for our lightweight metal scratch detector. It is intended to provide a demonstration of the model described in the paper.
 
 -------
 Environment
@@ -32,8 +30,7 @@ Quick Start
 ---
 Data Availability
 ---
-The data that support the findings of this study are available from the
-corresponding author upon reasonable request.
+The data that support the findings of this study are available from the corresponding author upon reasonable request.
 
 ---
 Contact
