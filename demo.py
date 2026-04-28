@@ -36,7 +36,7 @@ def main():
     # 4. Visualization results
 
 
-    class_names = ['Pure Line', 'Dendritic']
+    class_names = ['Pure Line', 'Dendritic','Single Intersecting', 'Multi Intersecting']
     v = Visualizer(im[:, :, ::-1],
                    metadata={'thing_classes':class_names},
                    scale=0.5,
@@ -54,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
