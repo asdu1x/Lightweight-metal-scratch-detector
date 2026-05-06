@@ -12,10 +12,10 @@ from detectron2.engine import DefaultTrainer
 # ==================================================
 
 # Path to the model configuration file (YAML)
-config_file_path = r"I:/deeplearning/detectron2-0.3/configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
+config_file_path = r"I:\deeplearning\detectron2\configs\COCO-Detection\faster_rcnn_R_50_FPN_3x.yaml"
 
 # Path to the specific model checkpoint (.pth)
-model_weights_path = r"I:\deeplearning\detectron2-0.3\output\randon\model_0004887.pth"
+model_weights_path = r"I:\deeplearning\detectron2\output\randon\model_final.pth"
 
 # Dataset Configuration
 # FIX: Changed name to a unique identifier to avoid conflict with built-in datasets
@@ -24,7 +24,7 @@ test_images_path = r"I:\deeplearning\process\coco_ALL_1010_Mica_LS\val2017"
 test_json_annot_path = r"I:\deeplearning\process\coco_ALL_1010_Mica_LS\annotations\instances_val2017.json"
 
 # Class names (Must match the classes used during training)
-class_names = ['surface', 'line']
+class_names = ['Pure Line', 'Dendritic','Single Intersecting', 'Multi Intersecting']
 
 # ==================================================
 # 2. Register Dataset
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     # --- Model Settings ---
     cfg.MODEL.WEIGHTS = model_weights_path
     cfg.MODEL.DEVICE = "cuda"
-    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 2
+    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 4
 
     # --- Evaluation Settings ---
     # Use the unique dataset name here as well
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
     # Create the Evaluator
     # Note: "bbox" is sufficient for Faster R-CNN
-    evaluator = COCOEvaluator(test_dataset_name, ["bbox"], False, output_dir="./output/randon")
+    evaluator = COCOEvaluator(test_dataset_name, ["bbox"], False, output_dir="./output")
 
     # Build the test data loader
     val_loader = build_detection_test_loader(cfg, test_dataset_name)
