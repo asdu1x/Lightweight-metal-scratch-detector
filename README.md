@@ -24,9 +24,11 @@ Quick Start
 
 2. Install detectron2 [https://github.com/facebookresearch/detectron2]    
 
-3. Place metal surface images in the "image_path" and weight in the "cfg.MODEL.WEIGHTS".
+3. Change the configuration section and dataset paths in train.py, then run it to get the models.
 
-4. Run visualization.py
+4. Change the configuration, checkpoint, and dataset paths in val.py, then run it to get the evaluation results.
+   
+5. Change the image_path and cfg.MODEL.WEIGHTS in visualization.py, then run it to get the visualization results.
 
 ---
 Data Availability
