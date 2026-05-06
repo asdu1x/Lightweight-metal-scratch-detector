@@ -39,4 +39,4 @@ The data that support the findings of this study are available from the correspo
 Contact
 ---
 Bo Zhang
-bo_zh@scu.edu.cn
+bo_zh[at]scu.edu.cn
