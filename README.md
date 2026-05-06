@@ -28,7 +28,7 @@ Quick Start
 
 4. Change the configuration, checkpoint, and dataset paths in val.py, then run it to get the evaluation results.
    
-5. Change the image_path and cfg.MODEL.WEIGHTS in visualization.py, then run it to get the visualization results.
+5. Change the image and checkpoint paths in visualization.py, then run it to get the visualization results.
 
 ---
 Data Availability
