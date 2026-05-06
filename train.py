@@ -23,9 +23,9 @@ def get_train_cfg(config_file_path, train_dataset_name, test_dataset_name, num_c
     cfg.DATASETS.TEST = (test_dataset_name,)  # Used for validation during training
 
     # --- Dataloader & Solver Settings ---
-    cfg.DATALOADER.NUM_WORKERS = 2
+    cfg.DATALOADER.NUM_WORKERS = 0
     cfg.SOLVER.IMS_PER_BATCH = 2  # Adjust based on GPU memory
-    cfg.SOLVER.BASE_LR = 0.005  # Base learning rate
+    cfg.SOLVER.BASE_LR = 0.001  # Base learning rate
 
     # Calculate total iterations and step milestones based on epochs
     # Formula: (Total Images / Batch Size) * Target Epochs
@@ -51,12 +51,11 @@ def get_train_cfg(config_file_path, train_dataset_name, test_dataset_name, num_c
 # ==================================================
 # 1. Configuration Section (Modify these paths/values)
 # ==================================================
-config_file_path = r"I:/deeplearning/detectron2-0.3/configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
-train_num = 104  # Total number of training images
-num_classes = 2
-class_names = ['surface', 'line']
+config_file_path = r"I:\deeplearning\detectron2-0.3\configs\COCO-Detection\faster_rcnn_R_50_FPN_3x.yaml"
+num_classes = 4
+class_names = ['Pure Line', 'Dendritic','Single Intersecting', 'Multi Intersecting']
 device = "cuda"  # Use "cpu" if no GPU is available
-output_dir = r"I:\deeplearning\detectron2-0.3\output\randon"
+output_dir = r"I:\deeplearning\detectron2-0.3\output"
 
 # --- Dataset Paths ---
 train_dataset_name = "LP_train"
