@@ -24,7 +24,7 @@ Quick Start
 
 2. Install detectron2 [https://github.com/facebookresearch/detectron2]    
 
-3. Change the configuration section and dataset paths in train.py, then run it to get the models.
+3. Change the configuration and dataset paths in train.py, then run it to get the models.
 
 4. Change the configuration, checkpoint, and dataset paths in val.py, then run it to get the evaluation results.
    
