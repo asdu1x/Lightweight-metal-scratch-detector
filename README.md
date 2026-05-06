@@ -26,33 +26,12 @@ Quick Start
 
 3. Place metal surface images in the "image_path" and weight in the "cfg.MODEL.WEIGHTS".
 
-5. Run demo.py
+4. Run visualization.py
 
 ---
 Data Availability
 ---
 The data that support the findings of this study are available from the corresponding author upon reasonable request.
-
----
-Contribution Statement
----
-Bin Xu: Conceptualization, Methodology, Formal analysis, Visualization, Data curation, Review & editing, Writing- original draft.
-
-Jianhong Huang: Methodology, Software, Data curation, Writing – original draft.
-
-Yuyang Du: Methodology, Software, Data curation, Writing – original draft.
-
-Tong Zhou: Data curation, Writing- original draft.
-
-Jiangwen Tang: Project administration, Writing- original draft.
-
-Hongyu Li: Project administration, Data curation.
-
-Qishi Hu: Writing – original draft.
-
-Bo Zhang: Supervision, Review & editing, Writing- original draft.
-
-Kai Liu: Review & editing.
 
 ---
 Contact
