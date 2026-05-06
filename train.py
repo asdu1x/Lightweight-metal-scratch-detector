@@ -51,11 +51,11 @@ def get_train_cfg(config_file_path, train_dataset_name, test_dataset_name, num_c
 # ==================================================
 # 1. Configuration Section (Modify these paths/values)
 # ==================================================
-config_file_path = r"I:\deeplearning\detectron2-0.3\configs\COCO-Detection\faster_rcnn_R_50_FPN_3x.yaml"
+config_file_path = r"I:\deeplearning\detectron2\configs\COCO-Detection\faster_rcnn_R_50_FPN_3x.yaml"
 num_classes = 4
 class_names = ['Pure Line', 'Dendritic','Single Intersecting', 'Multi Intersecting']
 device = "cuda"  # Use "cpu" if no GPU is available
-output_dir = r"I:\deeplearning\detectron2-0.3\output"
+output_dir = r"I:\deeplearning\detectron2\output"
 
 # --- Dataset Paths ---
 train_dataset_name = "LP_train"
